@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cado Shop</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="SPmeo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <section class="header">
+            <a href="Cado_Shop.html" class="logo">
+                <img src="Image/logo.png" alt="">
+            </a>
+            <nav class="navbar">
+                <a href="Cado_Shop.html">Trang chủ</a>
+                
+                <div class="dropdown">
+                    <a href="#">Sản phẩm</a>
+                    <div class="dropdown-content">
+                        <a href="dog.html">Chó cưng</a>
+                        <a href="meo.html">Mèo cưng</a>
+                    </div>
+                </div>
+                <a href="#">Tin tức</a>
+                <a href="gioithieu.html">Giới thiệu</a>
+                <a href="LIEN HE.html">Liên hệ</a>
+            </nav>
+                
+                <div class="icons">
+                    <div class="bx bx-search-alt" id="search-btn"></div>
+                    <div class="bx bx-cart" id="cart-btn"></div>
+                    <div class='bx bx-user' id="user-btn"></div>
+                </div>
+
+                <div class="search-form">
+                    <input type="search" id="search-box" placeholder="Tìm kiếm ở đây...">
+                    <label for="search-box" class="bx bx-search-alt"></label>
+                </div>
+        </section>
+       
+
+<!-----------------banner-->
+
+
+        <div class="BANNER">
+            <div class="BANNER1">
+               
+                    <img class="Image1" src="./Image/banner3.png" alt="" >
+                
+                    <img class="Image1" src="./Image/banner4.png" alt="" >
+            </div>
+            <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>   
+        </div>
+        
+
+<!---------------product-->
+
+
+    <section class="sanpham">
+        <div class="select-menu">
+            <select class="LUACHON">
+                                                
+                <option value="manual">Sản phẩm nổi bật</option>
+                
+                <option value="price-ascending" data-filter="&amp;sortby=(price:product=asc)">Giá: Tăng dần</option>
+                <option value="price-descending" data-filter="&amp;sortby=(price:product=desc)">Giá: Giảm dần</option>
+                <option value="title-ascending" data-filter="&amp;sortby=(title:product=asc)">Tên: A-Z</option>
+                <option value="title-descending" data-filter="&amp;sortby=(price:product=desc)">Tên: Z-A</option>
+                <option value="created-ascending" data-filter="&amp;sortby=(updated_at:product=desc)">Cũ nhất</option>
+                <option value="created-descending" data-filter="&amp;sortby=(updated_at:product=asc)">Mới nhất</option>
+                <option value="best-selling" data-filter="&amp;sortby=(sold_quantity:product=desc)">Bán chạy nhất</option>
+                <option value="quantity-descending">Tồn kho: Giảm dần</option>
+            </select>
+        </div>
+        <h1 class="heading" >Sản Phẩm<span> Cho Mèo</span></h1>
+        <div class="sanpham1">
+        <div class="card">
+            <div class="card-content">
+                <div class="img">
+                <img src="./Image/chomeo/av1.png" alt="" class="card-img">
+            </div>
+                <h1 class="card-title">Súp thưởng mix vị Cattyman 60g</h1>
+                <div class="card-body">
+
+                    <p class="card-price">25.000</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Mua ngay</button>
+                    <button class="btn btn-border">Giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="img">
+                <img src="./Image/chomeo/h1.png" alt="" class="card-img">
+            </div>
+                <h1 class="card-title">Hạt Minimax cho mèo 350g</h1>
+                <div class="card-body">
+                   
+                    <p class="card-price">105.000</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Mua ngay</button>
+                    <button class="btn btn-border">Giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="img">
+                <img src="./Image/chomeo/h5.png" alt="" class="card-img">
+            </div>
+                <h1 class="card-title">Hạt ANF Cat 6 Free Indoor Adult 6kg</h1>
+                <div class="card-body">
+                 
+                    <p class="card-price">375.000</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Mua ngay</button>
+                    <button class="btn btn-border">Giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="img">
+                <img src="./Image/chomeo/av6.png" alt="" class="card-img">
+            </div>
+                <h1 class="card-title">CIAO Churu 50 pcs Collagen and Fiber</h1>
+                <div class="card-body">
+                    <p class="card-price">75.000</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Mua ngay</button>
+                    <button class="btn btn-border">Giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="img">
+                <img src="./Image/chomeo/h8.png" alt="" class="card-img">
+            </div>
+                <h1 class="card-title">Hạt Morando M4 vị cá biển 2kg</h1>
+                <div class="card-body">
+                    <p class="card-price">195.000</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Mua ngay</button>
+                    <button class="btn btn-border">Giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="img">
+                <img src="./Image/chomeo/av8.png" alt="" class="card-img">
+            </div>
+                <h1 class="card-title">Snack phô mai viên Gimcat Cheezies 50g</h1>
+                <div class="card-body">
+                   
+                    <p class="card-price">75.000</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Mua ngay</button>
+                    <button class="btn btn-border">Giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="img">
+                <img src="./Image/chomeo/pt3.png" alt="" class="card-img" >
+            </div>
+                <h1 class="card-title">Hạt Nutri Source Gà và Đậu</h1>
+                <div class="card-body">
+                   
+                    <p class="card-price">208.000</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Mua ngay</button>
+                    <button class="btn btn-border">Giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="img">
+                <img src="./Image/chomeo/h6.png" alt="" class="card-img">
+            </div>
+                <h1 class="card-title">Hạt Natural Core EcoC1 đa đạm cho mèo 5kg</h1>
+                <div class="card-body">
+                   
+                    <p class="card-price">238.000</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Mua ngay</button>
+                    <button class="btn btn-border">Giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="img">
+                <img src="./Image/chomeo/pt7.png" alt="" class="card-img">
+            </div>
+                <h1 class="card-title">Hạt Morando M47 cho mèo trưởng thành</h1>
+                <div class="card-body">
+                   
+                    <p class="card-price">289.000</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Mua ngay</button>
+                    <button class="btn btn-border">Giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="img">
+                <img src="./Image/chomeo/pt5.png" alt="" class="card-img">
+            </div>
+                <h1 class="card-title">Pate lon Nekko Gold cho mèo 85g</h1>
+                <div class="card-body">
+                   
+                    <p class="card-price">35.000</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Mua ngay</button>
+                    <button class="btn btn-border">Giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="img">
+                <img src="./Image/chomeo/pt4.png" alt="" class="card-img">
+            </div>
+                <h1 class="card-title">Pate Maria cho mèo gói 70g</h1>
+                <div class="card-body">
+                   
+                    <p class="card-price">66.000</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Mua ngay</button>
+                    <button class="btn btn-border">Giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="img">
+                <img src="./Image/chomeo/pt8.png" alt="" class="card-img">
+            </div>
+                <h1 class="card-title">Pate Simba cho mèo 100gg</h1>
+                <div class="card-body">
+                   
+                    <p class="card-price">15.000</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Mua ngay</button>
+                    <button class="btn btn-border">Giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+     </div>
+    </section>
+
+<!---bộ lọc-->
+<aside class="menu-danhmuc">
+    <div class="menu-danhmuc-main">
+        <h3>DANH MỤC</h3>
+        <h3 style="margin-top: 30px;">BỘ LỌC</h3>
+        <div class="thuonghieu">
+            <span>LOẠI SẢN PHẨM</span>
+            <li>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"> Thức ăn hạt</label>
+            </li>
+            <li>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">Đồ chơi</label>
+            </li>
+            <li>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"> Bánh thưởng </label>
+            </li>
+        </div>
+
+
+
+<!---------footer-->
+<footer class="section-p1">
+            <div class="col">
+                
+                <h4>Liên hệ</h4>
+                <p><strong>Địa chỉ:</strong> Số 12 Nguyễn Văn Bảo, P4, Gò Vấp, TPHCM </p>
+                <p><strong>Điện thoại:</strong> 0123456789</p>
+                <p><strong>Email:</strong> cadoshop@gmail.com</p>
+            </div>
+
+            <div class="col">
+                <h4>Cado Shop</h4>
+                <a href="#">Giới thiệu</a>
+                <a href="#">Thông tin vận chuyển</a>
+                <a href="#">Chính sách bảo mật</a>
+                <a href="#">Chính sách bảo hành</a>
+            </div>
+
+            <div class="col">
+                <h4>Theo dõi Shop</h4>
+                <div class="icon">
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-instagram-alt'></i>
+                <i class='bx bxl-tiktok'></i>
+                </div>
+                <img class="logo" src="Image/logo.png" alt="">
+            </div>
+          </footer>
+
+<script src="Cado_Shop.js"></script>
+<script src="SPmeo.js"></script>
+</body>
+</html>
